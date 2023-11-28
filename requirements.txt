@@ -1,0 +1,9 @@
+Markdown==3.5.1
+pandocfilters==1.5.0
+plumbum==1.8.2
+ply==3.11
+pypandoc==1.12
+python-frontmatter==1.0.1
+python-slugify==8.0.1
+PyYAML==6.0.1
+text-unidecode==1.3
