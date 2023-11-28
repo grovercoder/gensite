@@ -68,6 +68,8 @@ For development purposes, you can use the "Live Server" extension in VS Code (as
 
 `gensite.py` has been refactored from a [previous version](https://github.com/grovercoder/static_site).  That earlier draft tightly coupled the site templates with the generation code.  `gensite.py` attempts to decouple the generation code from the sites content files.  To do so, some assumptions have been made:
 
+It is recommended that you have a separate GIT repo for your website.
+
 - Your website folder contains a `/template` directory, and that contains:
     - `index.html` which is the Layout for your site.  Place the text `{placeholder=post_list}` where you want the dynamic content to be.
     - `listitem.html` - this is an HTML snippet that represents what a summary list item looks like for a post.  You can use the following place holders:

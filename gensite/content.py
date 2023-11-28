@@ -29,7 +29,7 @@ class Content:
         return self.content
 
     def html(self):
-        return markdown.markdown(self.content)
+        return markdown.markdown(self.content, extensions=['fenced_code'])
 
     # def listItem(self):
 
