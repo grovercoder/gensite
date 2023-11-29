@@ -49,7 +49,7 @@ class Site:
 
         src = Path(self.source)
         child_directories = [entry for entry in src.iterdir() if entry.is_dir()]
-        ignore_dirs = ["dist", "css", "posts", "template"]
+        ignore_dirs = [".git", ".vscode", "dist", "css", "posts", "template"]
 
         # copy any generic directory to the dist folder
         # "handled" directories should be ignored at this stage
