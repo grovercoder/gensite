@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/home/shawn/Projects/dev/web/gensite/.venv/bin/python3
 
 from gensite.site import Site
 
